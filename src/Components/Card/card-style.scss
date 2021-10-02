@@ -1,0 +1,89 @@
+.card-container {
+  background: #fff;
+  border: 1px solid #e5e7e9;
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 30px;
+
+  .card-rows {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 0 10px;
+
+    .card-left-container {
+      margin: 10px 0px 10px 30px;
+
+      .card-main {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+
+        .logo {
+          width: 50px;
+          height: 50px;
+        }
+
+        .logo-contain {
+          margin-left: 20px;
+        }
+
+        .logo-title {
+          font-size: 18px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .logo-subtitle {
+          font-size: 16px;
+          line-height: 30px;
+          color: #a1a7b0;
+        }
+      }
+
+      .card-left-title {
+        font-weight: bold;
+        color: #232428;
+        font-size: 22px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      .card-left-bottom {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        margin-top: 60px;
+        .title {
+          color: #a9afb7;
+          font-size: 14px;
+          padding-bottom: 10px;
+          font-weight: bold;
+        }
+        .subtitle {
+          color: #000;
+          font-size: 13px;
+          font-weight: bold;
+        }
+        .button {
+          margin-left: 20px;
+          background: #0c6de0;
+          padding: 10px;
+          border: 1px solid #0c6de0;
+          color: #fff;
+          border-radius: 4px;
+          cursor: pointer;
+          margin-top: 5px;
+          &:hover {
+            background: #0d57af;
+          }
+        }
+      }
+    }
+
+    .left-container-image {
+      width: 100%;
+      border-radius: 4px;
+      height: 265px;
+      object-fit: cover;
+    }
+  }
+}
